@@ -1,5 +1,6 @@
 .container {
     margin: 20px;
+    height: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -15,6 +16,10 @@
 
 .el3 {
     background: rgba(0, 128, 0, 0.5);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .el4 {
