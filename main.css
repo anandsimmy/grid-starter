@@ -16,6 +16,16 @@ body {
                          "footer footer";
 }
 
+@media (max-width: 40rem){
+    .container{
+        grid-template-rows: 10% 1fr 1fr 15%;
+        grid-template-areas: "header header"
+                             "sidebar sidebar"
+                             "main main"
+                             "footer footer";
+    }
+}
+
 .el1 {
     background: rgba(255, 154, 72, 0.5);
     /* grid-column-start: 1;
