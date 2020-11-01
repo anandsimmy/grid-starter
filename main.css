@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+ 
 .container {
     margin: 15px;
     font-size: 35px;
@@ -14,6 +15,8 @@ body {
     grid-template-areas: "header header"
                          "sidebar main"
                          "footer footer";
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 @media (max-width: 40rem){
